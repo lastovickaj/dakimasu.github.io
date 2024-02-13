@@ -1,5 +1,7 @@
 .MainDiv {
-    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50%;
     width: 50%;
     border: 3px solid green;
     padding: 10px;
