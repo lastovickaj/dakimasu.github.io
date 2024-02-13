@@ -1,1 +1,0 @@
-document.body.style.backgroundImage = "/assets/images/background/SPACE.png";
