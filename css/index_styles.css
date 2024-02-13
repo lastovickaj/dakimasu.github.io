@@ -1,14 +1,50 @@
-.MainDiv {
-    height: 20px;
-    position: relative;
-    border: 3px solid green;
+@font-face {
+  font-family: "FreePixel";
+  src: url("/assets/fonts/FreePixel.ttf") format("opentype");
   }
-  
-.MainDivCenter {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  }
+
+:root {
+  --background: black;
+  --background-image: url("/assets/images/BEACH.png");
+  --banner: url('../assets/images/topbar.png');
+  --content-spacing: 5px;
+  --text-color: white;
+  --border: 1px solid black;
+}
+
+html, body {
+  margin: 0;
+  box-sizing: border-box;
+  /* font-family: FreePixel; */
+}
+
+body {
+  background-image: var(--background-image);
+  color: var(--text-color);
+  background-attachment: fixed;
+}
+
+.header {
+  background-image: var(--banner);
+  height: 150px;
+  margin-bottom: var(--content-spacing);
+  border: var(--border);
+}
+
+#container, .header img {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.header img {
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
+
+.footer {
+  border: var(--border);
+  height: 25px;
+  margin-top: var(--content-spacing);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
