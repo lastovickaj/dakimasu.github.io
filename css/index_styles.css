@@ -1,8 +1,14 @@
 .MainDiv {
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 50%;
-    width: 50%;
+    height: 200px;
+    position: relative;
     border: 3px solid green;
-    padding: 10px;
-}
+  }
+  
+.MainDivCenter {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
