@@ -53,7 +53,6 @@ body {
 .footer {
   border: var(--border);
   height: 25px;
-  margin-top: var(--content-spacing);
   background: var(--titlebars);
   text-align: center;
 }
@@ -72,9 +71,10 @@ aside {
 .content {
     padding:25px;
     background-color: var(--background);
+    margin-bottom: var(--content-spacing);
 }
 
-.title {
+.title, .sidebar-title {
   background: var(--titlebars);
   font-weight: bold;
   border: var(--border);
@@ -87,4 +87,19 @@ a {
 }
 a:hover {
   color: rgb(165, 165, 165);
+}
+
+nav {
+  position: sticky;
+  top: 20px;
+}
+
+nav ul {
+  margin-left: 0px;
+  padding-left: 30px;
+}
+
+#flex {
+  display: flex;
+  max-width:850px;
 }
