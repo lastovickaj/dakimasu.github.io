@@ -66,6 +66,7 @@ aside {
   margin-left:  var(--content-spacing);
   border-left:  var(--border);
   background-color: var(--background);
+  margin-bottom: var(--content-spacing);
 }
 
 .content {
@@ -99,7 +100,7 @@ nav ul {
   padding-left: 30px;
 }
 
-#flex {
+.flex {
   display: flex;
   max-width:850px;
 }
