@@ -5,8 +5,8 @@
 
 :root {
   --background: black;
-  --background-image: url("/assets/images/BEACH.png");
-  --banner: url('../assets/images/topbar.png');
+  --background-image: url("/assets/images/BEACH.webp");
+  /* --banner: url('../assets/images/topbar.png'); */
   --content-spacing: 5px;
   --text-color: white;
   --border: 1px solid black;
