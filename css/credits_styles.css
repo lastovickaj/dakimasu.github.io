@@ -19,7 +19,7 @@
 
 :root {
   --background: black;
-  --background-image: url("/assets/images/background/2.png");
+  --background-image: url("/assets/images/background/1.png");
   /* --banner: url('../assets/images/topbar.png'); */
   --content-spacing: 5px;
   --text-color: white;
@@ -35,7 +35,6 @@ html, body {
 
 body {
   background-image: var(--background-image);
-  background-size: cover;
   text-rendering: geometricPrecision;
   color: var(--text-color);
   background-attachment: fixed;
@@ -51,8 +50,6 @@ main {
 }
 
 .title, .sidebar-title {
-  background: var(--titlebars);
-  border: var(--border);
   font-size: 20px;
   text-indent: 5px;
   font-family: MarioWorld;
