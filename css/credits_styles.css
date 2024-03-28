@@ -41,54 +41,13 @@ body {
   background-attachment: fixed;
 }
 
-.header {
-  background: var(--titlebars);
-  height: 150px;
-  margin-bottom: var(--content-spacing);
-  border: var(--border);
-}
-
-.header-text {
-  text-align: center;
-  font-size: 40px;
-  margin: var(--content-spacing);
-  font-family: MarioWorld;
-}
-
-.header-subtext {
-  text-align: center;
-  font-size: 20px;
-  margin: var(--content-spacing);
-}
-
 #container {
   max-width: 850px;
   margin: 0 auto;
 }
 
-.footer {
-  border: var(--border);
-  height: 25px;
-  background: var(--titlebars);
-  text-align: center;
-}
-
 main {
-  width: 74%;
-}
-
-aside {
-  width: 30%;
-  margin-left:  var(--content-spacing);
-  border-left:  var(--border);
-  background-color: var(--background);
-  margin-bottom: var(--content-spacing);
-}
-
-.content {
-    padding:25px;
-    background-color: var(--background);
-    margin-bottom: var(--content-spacing);
+  width: 100%;
 }
 
 .title, .sidebar-title {
