@@ -76,17 +76,31 @@ html, body {
   height: 100vh;
 }
 
-.header {
+.header-wrapper {
   border: solid 0.5em var(--Lavender);
   border-radius: 2em;
   background-color: var(--Surface0);
-  box-shadow: 5px 5px 10px var(--Blue);
+  box-shadow: 0px 0px 10px var(--Blue);  
+}
 
+.header {
+  box-shadow: inset 0px 0px 10px var(--Blue); 
+  border-radius: 1.5em;
   padding: var(--content-spacing);
-  color: var(--Text);
   text-align: center;
+}
+
+.header h1 {
+  font-family: JetBrainsMonoNerdFont-Italic;
+  color: var(--Text);
+  text-shadow: 4px 4px 4px var(--Crust);
 }
 
 .header p {
   color: var(--Subtext0);
+}
+
+.shadow-words {
+  color: var(--Blue);
+  text-shadow: 0px 0px 4px var(--Blue);
 }
