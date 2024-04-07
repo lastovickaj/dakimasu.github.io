@@ -1,14 +1,37 @@
+/* JetBrainsMonoNerdFonts */
 @font-face {
-  font-family: "Grand9K-Pixel";
-  src: url("/fonts/Grand9K_Pixel.ttf") format("truetype");
+  font-family: JetBrainsMonoNerdFont;
+  src: url(/fonts/JetBrainsMonoNerdFont/JetBrainsMonoNerdFont-Regular.ttf);
+}
+@font-face {
+  font-family: JetBrainsMonoNerdFont-Bold;
+  src: url(/fonts/JetBrainsMonoNerdFont/JetBrainsMonoNerdFont-Bold.ttf);
+}
+@font-face {
+  font-family: JetBrainsMonoNerdFont-Italic;
+  src: url(/fonts/JetBrainsMonoNerdFont/JetBrainsMonoNerdFont-Italic.ttf);
+}
+@font-face {
+  font-family: JetBrainsMonoNerdFont-Light;
+  src: url(/fonts/JetBrainsMonoNerdFont/JetBrainsMonoNerdFont-Light.ttf);
+}
+@font-face {
+  font-family: JetBrainsMonoNerdFont-Medium;
+  src: url(/fonts/JetBrainsMonoNerdFont/JetBrainsMonoNerdFont-Medium.ttf);
+}
+@font-face {
+  font-family: JetBrainsMonoNerdFont-SemiBold;
+  src: url(/fonts/JetBrainsMonoNerdFont/JetBrainsMonoNerdFont-SemiBold.ttf);
+}
+@font-face {
+  font-family: JetBrainsMonoNerdFont-Thin;
+  src: url(/fonts/JetBrainsMonoNerdFont/JetBrainsMonoNerdFont-Thin.ttf);
 }
 
-@font-face {
-  font-family: "MarioWorld";
-  src: url("/fonts/TypefaceMarioWorld.ttf") format("truetype");
-}
-
+/* Global Variables */
 :root {
+
+  /* Catppuccin Mocha Colors*/
   --Rosewater: #f5e0dc;
   --Flamingo: #f2cdcd;
   --Pink: #f5c2e7;
@@ -36,11 +59,13 @@
   --Mantle: #181825;
   --Crust: #11111b;
 
+  /* Other Globals */
   --content-spacing: 5px;
   --titlebars: linear-gradient(0deg, #1e1e2e 0%, #181825 100%);
 }
 
 html, body {
+  font-family: JetBrainsMonoNerdFont;
   background-color: var(--Base);
 }
 
