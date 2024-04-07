@@ -1,3 +1,15 @@
 {
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "files.exclude": {
+        "**/android-chrome-192x192.png": true,
+        "**/android-chrome-512x512.png": true,
+        "**/apple-touch-icon.png": true,
+        "**/browserconfig.xml": true,
+        "**/favicon-16x16.png": true,
+        "**/favicon-32x32.png": true,
+        "**/favicon.ico": true,
+        "**/mstile-150x150.png": true,
+        "**/site.webmanifest": true,
+        "**/safari-pinned-tab.svg": true
+    }
 }
