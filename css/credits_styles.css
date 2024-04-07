@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Grand9K-Pixel";
-  src: url("/assets/fonts/Grand9K_Pixel.ttf") format("truetype");
+  src: url("/fonts/Grand9K_Pixel.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "MarioWorld";
-  src: url("/assets/fonts/TypefaceMarioWorld.ttf") format("truetype");
+  src: url("/fonts/TypefaceMarioWorld.ttf") format("truetype");
 }
 
 @keyframes scroll {
@@ -19,8 +19,7 @@
 
 :root {
   --background: black;
-  --background-image: url("/assets/images/background/1.png");
-  /* --banner: url('../assets/images/topbar.png'); */
+  --background-image: url("/images/background_credits.png");
   --content-spacing: 5px;
   --text-color: white;
   --border: 1px solid black;
