@@ -8,4 +8,4 @@ function changeColor() {
       word.style.textShadow = `0px 0px 4px var(${randomColor})`;
     });
 }
-window.onload = changeColor;  
+window.onload = changeColor; 
