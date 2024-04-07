@@ -71,10 +71,30 @@
   text-shadow: 0px 0px 4px var(--Blue);
 }
 
+.back-button {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  background-color: var(--Base);
+  color: var(--Text);
+  font-family: JetBrainsMonoNerdFont;
+  text-shadow: 0px 0px 4px var(--Text);
+
+  transition: color 0.5s ease, text-shadow 0.5s ease;
+}
+.back-button:hover {
+  font-family: JetBrainsMonoNerdFont-Italic;
+  color: var(--Mauve);
+  text-shadow: 0px 0px 4px var(--Mauve);
+}
+
 
 /* Top or general wrappers*/
 html, body {
-  transform: scale(1.2);
   overflow: hidden;
 
   background-color: var(--Base);
