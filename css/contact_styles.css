@@ -1,33 +1,32 @@
 /* JetBrainsMonoNerdFonts */
 @font-face {
   font-family: JetBrainsMonoNerdFont;
-  src: url(/fonts/JetBrainsMonoNerdFont/JetBrainsMonoNerdFont-Regular.ttf);
+  src: url(/fonts/JetBrainsMonoNerdFont/JetBrainsMonoNerdFont-Regular.woff2);
 }
 @font-face {
   font-family: JetBrainsMonoNerdFont-Bold;
-  src: url(/fonts/JetBrainsMonoNerdFont/JetBrainsMonoNerdFont-Bold.ttf);
+  src: url(/fonts/JetBrainsMonoNerdFont/JetBrainsMonoNerdFont-Bold.woff2);
 }
 @font-face {
   font-family: JetBrainsMonoNerdFont-Italic;
-  src: url(/fonts/JetBrainsMonoNerdFont/JetBrainsMonoNerdFont-Italic.ttf);
+  src: url(/fonts/JetBrainsMonoNerdFont/JetBrainsMonoNerdFont-Italic.woff2);
 }
 @font-face {
   font-family: JetBrainsMonoNerdFont-Light;
-  src: url(/fonts/JetBrainsMonoNerdFont/JetBrainsMonoNerdFont-Light.ttf);
+  src: url(/fonts/JetBrainsMonoNerdFont/JetBrainsMonoNerdFont-Light.woff2);
 }
 @font-face {
   font-family: JetBrainsMonoNerdFont-Medium;
-  src: url(/fonts/JetBrainsMonoNerdFont/JetBrainsMonoNerdFont-Medium.ttf);
+  src: url(/fonts/JetBrainsMonoNerdFont/JetBrainsMonoNerdFont-Medium.woff2);
 }
 @font-face {
   font-family: JetBrainsMonoNerdFont-SemiBold;
-  src: url(/fonts/JetBrainsMonoNerdFont/JetBrainsMonoNerdFont-SemiBold.ttf);
+  src: url(/fonts/JetBrainsMonoNerdFont/JetBrainsMonoNerdFont-SemiBold.woff2);
 }
 @font-face {
   font-family: JetBrainsMonoNerdFont-Thin;
-  src: url(/fonts/JetBrainsMonoNerdFont/JetBrainsMonoNerdFont-Thin.ttf);
+  src: url(/fonts/JetBrainsMonoNerdFont/JetBrainsMonoNerdFont-Thin.woff2);
 }
-
 
 /* Global Variables */
 :root {
